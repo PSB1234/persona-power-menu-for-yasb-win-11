@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P3R Power Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="media-container">
+        <!-- PNG Sequence -->
+        <img id="png-sequence" src="" alt="PNG Sequence">
+        <!-- Part 2 Video -->
+        <video id="video-part2" muted playsinline>
+            <source src="part2_optimized.mp4" type="video/mp4">
+        </video>
+        <!-- Part 3 Video (Looping) -->
+        <video id="video-part3" muted loop playsinline>
+            <source src="part3_optimized.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Power Menu Buttons -->
+    <div id="button-container">
+        <div class="power-btn" id="btn-logout" title="Logout">
+            <img src="../iconpack/logout.png" data-hover="../iconpack/logout1.png" data-normal="../iconpack/logout.png">
+        </div>
+        <div class="power-btn" id="btn-restart" title="Restart">
+            <img src="../iconpack/restart.png" data-hover="../iconpack/restart1.png" data-normal="../iconpack/restart.png">
+        </div>
+        <div class="power-btn" id="btn-shutdown" title="Shut Down">
+            <img src="../iconpack/shutdown.png" data-hover="../iconpack/shutdown1.png" data-normal="../iconpack/shutdown.png">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
