@@ -11,10 +11,9 @@ A Persona 3 Reload inspired power menu widget for **YASB (Yet Another Status Bar
 - Power controls:
   - Shutdown
   - Restart
-  - Sleep
-  - Hibernate
-  - Lock
+  - System
   - Sign Out
+  - Cancel
 - Custom PNG assets and styling
 - Lightweight HTML/CSS/JavaScript frontend
 - Python backend integration for Windows power actions
